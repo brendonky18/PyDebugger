@@ -1,0 +1,4 @@
+- [ ] Allow greater control for where statements are printed
+  - [ ] `err()` should print to stderr
+  - [ ] `info()` should print to a logfile
+  - [ ] When printing to other files, make sure to not include color codes
