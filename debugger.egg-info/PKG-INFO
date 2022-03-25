@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: debugger
+Version: 0.0.1
+Summary: Simple python program to make printing, logging and debugging easier.
+Home-page: git@github.com:brendonky18/PyDebugger.git
+Author: Brendon Ky
+Author-email: brendonky28@gmail.com
+License: unlicense
+Description: UNKNOWN
+Platform: UNKNOWN
