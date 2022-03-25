@@ -9,13 +9,15 @@ class _Color:
 
 class Debugger:
     _debug: bool
-    def __init__(self, set_active: bool, name: str="") -> None:
+    def __init__(self, set_active: bool=False, name: str="") -> None:
         """Constructor
 
         Parameters
         ----------
-        set_active : bool
-            Whether debug statements should be printed
+        set_active : bool, optional
+            Whether debug statements should be printed, by default False
+        name : str, optional
+            The name to be associated with the debugger, if left empty no name will be printed
         """
         self._debug = set_active
         self._name = name
@@ -45,6 +47,21 @@ class Debugger:
 
     def printf(self, string: str):
         self._print(_Color.END, string)
+
+D = Debugger(True)
+
+def ok(string: str):
+    D.ok(string)
+def debug(string: str):
+    D.debug(string)
+def info(string: str):
+    D.info(string)
+def warn(string: str):
+    D.warn(string)
+def err(string: str):
+    D.err(string)
+def printf(string: str):
+    D.printf(string)
 
 if __name__ == "__main__":
     d = Debugger(True, "main")
