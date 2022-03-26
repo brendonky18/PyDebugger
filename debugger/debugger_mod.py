@@ -48,12 +48,10 @@ class Debugger:
     def printf(self, string: str):
         self._print(_Color.END, string)
 
-D = Debugger(True)
+D = Debugger(False)
 
 def ok(string: str):
     D.ok(string)
-def debug(string: str):
-    D.debug(string)
 def info(string: str):
     D.info(string)
 def warn(string: str):
