@@ -8,7 +8,7 @@ setup(
     author='Brendon Ky',
     author_email='brendonky28@gmail.com',
     license='unlicense',
-    packages=['_debugger'],
+    packages=['debugger'],
     # install_requires=['curses'],
     zip_safe=False
 )
