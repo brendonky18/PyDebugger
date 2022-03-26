@@ -1,7 +1,7 @@
 README.md
 setup.py
 debugger/__init__.py
-debugger/debugger.py
+debugger/_debugger.py
 debugger.egg-info/PKG-INFO
 debugger.egg-info/SOURCES.txt
 debugger.egg-info/dependency_links.txt
