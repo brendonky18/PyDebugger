@@ -2,3 +2,6 @@
   - [ ] `err()` should print to stderr
   - [ ] `info()` should print to a logfile
   - [ ] When printing to other files, make sure to not include color codes
+- [ ] Incorporate Python f-string variable debugging syntax
+- [ ] Decorators?
+- [ ] Full guide on how to use python fstrings
