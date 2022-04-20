@@ -5,3 +5,7 @@
 - [ ] Incorporate Python f-string variable debugging syntax
 - [ ] Decorators?
 - [ ] Full guide on how to use python fstrings
+- [ ] Replace custom prints by extending the fstring class?
+  - [ ] Color codes
+  - [ ] Process names
+  - [ ] Variable Debugging syntax
